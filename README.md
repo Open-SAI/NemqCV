@@ -1,0 +1,2 @@
+# C.V. DTT
+Working space to host the David Toro Triana professional profile, maybe an little geek solution, however is an interesting alternative to get an update *curriculum vitae*, always lose my Office version, Libre Office is not too fancy looking, GDocs not run in my terminal and if you have an real interest in the talent of FLOSS industry, you know that the ssh, git, vim, LaTeX ("what a renaissane tool!), Markdown and Debian are a good pool of tools of a eternal Open Source newbie.
