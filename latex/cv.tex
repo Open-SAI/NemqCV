@@ -3,37 +3,38 @@
 \usepackage[spanish]{babel} % spanish Latex support
 \usepackage[utf8]{inputenc} % 
 \usepackage{graphicx}       % graphics support
-\usepackage{hyperref}
+\usepackage[T1,hyphens]{url}
+\usepackage[hidelinks,breaklinks=true]{hyperref} %url hyphenation
 
 %----------------------------------------------------------
 %----------------------------------------------------------header
 \begin{document}
 
-%nombre del personaje
+%name
 \name{{\Large \bf David Toro Triana}}
 
 \begin{resume}
 
 %-----------------------------------------------personal info, photo
 
-\begin{minipage}{\linewidth}
+%\begin{minipage}{\linewidth}
 	\begin{minipage}{0.5\linewidth}
     		Carrera 15 \# 188-11  \newline 
-    		Bogotá D.C., Colombia \\ 
-    		(+57) 313 255 98 64 \\ 
-    		{\tt dtorot@opensai.org} \\ 
-     	{\tt https://opensai.org} \\ 
+    		Bogotá D.C., Colombia \newline
+    		(+57) 313 255 98 64 \newline
+    		{\tt dtorot@opensai.org}
+     	%{\tt https://opensai.org} 
 	\end{minipage}
-	\begin{minipage}{0.5\linewidth}
-		\begin{center}
+%	\begin{minipage}{0.5\linewidth}
+%		\begin{center}
 %			\includegraphics[bb=0 0 100 105, width=30mm,keepaspectratio]{foto.jpeg}
 %\begin{center}
 %	\includegraphics[width=3cm, bb=0 0 305 321]{./foto.jpeg}
 %	% foto.jpeg: 424x446 pixel, 100dpi, 10.77x11.33 cm, bb=0 0 305 321
 %\end{center}
-		\end{center}
-	\end{minipage}
-\end{minipage}
+%		\end{center}
+%	\end{minipage}
+%\end{minipage}
 
 
 %----------------------------------------------------Professional Profile 
@@ -48,7 +49,7 @@ During the last 10 years, I have been working in the field of Web Development an
 
     \item Also I have worked as Frontend Developer using web standards like HTML5, CSS3 and JavaScript, CSS preprocessors (Bootstrap), using the most popular CMS's and frameworks like Joomla! or Django.
 
-    \item I like to work and explore continuosly game changer platforms like Docker, Kubernets, new app development trends like Jamstack, through debugging, troubleshooting and deploying in the server side.
+    \item I like to work and explore continuosly game changer platforms like Docker, Kubernets, new app development trends like JAMStack, Progressive Web Apps - PWA or React Native, through debugging, troubleshooting and deploying in the server side.
 \end{itemize}
     
 I understand that the technology is merely a tool to get organizational goals. From a multicultural environments and goal-oriented leadership, I like to build and maintain productive relationships with clients and colleagues, to gathering, assessing and analysing customer needs, translating business requirements in solution design and effective customer experience.
@@ -141,13 +142,23 @@ Systems Engineer (Ingeniero de Sistemas)
 \vspace{0.5cm}
 \begin{itemize}
 	\item Computer Graphics / Scientific Computing
+	\begin{itemize}
+	 \item Configuration and Administration of the Terascale Open-source Resource and QUEue Manager TORQUE ({\url https://github.com/adaptivecomputing/torque}) and Globus Toolkit ({\url https://toolkit.globus.org/}) at the CECAD ({\url https://tinyurl.com/y5ksh6by}) in render OpenGL 3D imagery and grid computing (2011-2014)
+	 \begin{itemize}
+	  \item 64 nodes (16 physicals)
+	  \item 32 Tb RAM
+	  \item shared storage in S.A.N.
+	 \end{itemize}
+	 \item OpenCL, MPI (Message Passing Interface) in C/C++ and Python, over a Beowulf MOSIX or Pelican HPC cluster, to support galaxy spectral analysis in the COMPUCIE team ({\url https://tinyurl.com/y3knf9b7}) 
+	 \item HPC provisioning over Azure CycleCloud (entry level by institutional budget)
+	\end{itemize}
 	\item Infrastructure Orchestration and services using Docker, Kubernetes (AKS, OpenShift)
 	\item The \LaTeX documentation system	
     \item Good engineering practices, ethical hacking
 	\item Open licensing and innovation support
     \item New technologies social aplication:
     \begin{itemize}
-		\item New education and social/digital inclusion models
+		\item New education and social, digital inclusion models
 	    \item Alternative models of economic self-sufficiency, cultural identity, civil society and democracy
 	    \item Food self-sufficiency, ecology, sustainability (permaculture)
     \end{itemize}
@@ -159,18 +170,17 @@ Systems Engineer (Ingeniero de Sistemas)
 \opening
 \section{\sc Personal References}
 
-
-Omaira Tovar Ruiz\newline
+Omaira Tovar Ruiz \newline
 Instituto Colombiano del Sistema Nervioso Clínica – Monserrat\newline
 Calle 134 \# 17 – 71 \newline
 2596000 Extensión 6009\newline
-{\tt omairatovar@gmail.com} \newline
-Information Science Professional, Librarianship and Archivist (Profesional en Ciencias de la Información Bibliotecología y Archivista)
+\url{omairatovar@gmail.com} \newline
+Information Science Professional, Librarianship and Archivist (Profesional en Ciencias de la Información, Bibliotecología y Archivista)
 
 Olman Yair Vasquez\newline
 MINCIVIL\newline
 316 8089525\newline
-{\tt ovasquez@mincivil.com}\newline
+\url{ovasquez@mincivil.com}\newline
 Systems Engineer (Ingeniero de Sistemas, Especialista en Gestión de Proyectos)
 
 \vspace{\fill}
