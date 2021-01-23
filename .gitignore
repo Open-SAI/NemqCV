@@ -1,2 +1,5 @@
 latex/*.log
 latex/*.gz
+latex/*.ps
+latex/*.dvi
+latex/*.swp
