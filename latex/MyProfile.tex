@@ -1,0 +1,149 @@
+\documentclass[overlapped,line,final]{res}
+
+\usepackage[main=english,spanish]{babel} % spanish Latex support
+\usepackage[utf8]{inputenc} % 
+\usepackage{graphicx}       % graphics support
+\usepackage[T1,hyphens]{url}
+\usepackage[breaklinks]{hyperref} %url hyphenation
+\usepackage{microtype}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{verbatim}
+
+
+%\definecolor{NemQLinks}{rgb}{0.1, 0.3, 0.6}
+\definecolor{NemQLinks}{rgb}{0.7, 0.2, 0.2}
+
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    %urlcolor={red!80!black}
+    urlcolor={NemQLinks}
+}
+
+
+%----------------------------------------------------------
+%----------------------------------------------------------header
+\begin{document}
+
+%name
+\name{{\Large \bf Name Name Name}}
+
+\begin{resume}
+
+%-----------------------------------------------personal info, photo
+
+%\begin{minipage}{\linewidth}
+	\begin{minipage}{0.5\linewidth}
+    		Bogotá D.C., Colombia \newline
+    		(+00) 000 000 00 00 \newline
+		{\tt \href{mailto:mail@example.com}{mail@example.com}}
+	\end{minipage}
+%----------------------------------------------------Professional Profile 
+\vspace{0.5cm}
+\section{\sc Professional Profile}
+\vspace{0.5cm}
+
+	\textbf {Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dolor ipsum, id gravida augue tincidunt vel. Maecenas rutrum consectetur libero quis finibus. Sed feugiat tortor sed lectus eleifend, congue lacinia eros semper. Aliquam at dolor sit amet tortor lobortis faucibus. Donec gravida porttitor felis a porttitor. Mauris tincidunt ipsum at ipsum auctor ornare. }
+
+\vspace{2mm}
+\begin{itemize} 
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dolor ipsum, id gravida augue tincidunt vel. Maecenas rutrum consectetur libero quis finibus. Sed feugiat tortor sed lectus eleifend, congue lacinia eros semper. Aliquam at dolor sit amet tortor lobortis faucibus. Donec gravida porttitor felis a porttitor. Mauris tincidunt ipsum at ipsum auctor ornare.  
+    \item Morbi ultricies tortor eu ipsum ultricies mattis. Etiam ultrices, diam a luctus finibus, diam ante fermentum dolor, sagittis fermentum neque eros non odio. 
+\end{itemize}
+
+%-----------------------------------------------------Projects
+% \vspace{1cm}
+\vspace{0.5cm}
+\section{\sc Projects } %-- twixt \location{} & \begin{position}
+\vspace{0.5cm}
+% ------------------------------------------- position 0
+\title{\bf Position
+	\newline \em Corp XX
+	\newline {\tt \url {https://corpx.com} } 
+}
+\employer{\bf The Boss}
+\location{\em (+00) 000 0000000}
+\dates{\bf  January 2000 - now }
+\begin{position}
+	\textbf{Etiam ultrices, diam a luctus finibus}:
+	\begin{itemize}
+		\item Mauris tincidunt ipsum at ipsum auctor ornare
+		\item Donec gravida porttitor felis a porttitor		
+		\item ...
+	\end{itemize}
+\end{position}
+% ------------------------------------------- position 1
+\title{\bf Position
+	\newline \em Corp XX
+	\newline {\tt \url {https://corpx.com} } 
+}
+\employer{\bf The Boss}
+\location{\em (+00) 000 0000000}
+\dates{\bf  January 2001 - January 2010 }
+\begin{position}
+	\textbf{Etiam ultrices, diam a luctus finibus}:
+	\begin{itemize}
+		\item Mauris tincidunt ipsum at ipsum auctor ornare
+		\item Donec gravida porttitor felis a porttitor		
+		\item ...
+	\end{itemize}
+\end{position}
+
+
+
+%-------------------------------------------------------Educación
+\section{\sc Education}
+\vspace{0.5cm}
+Mardukian Engineer 
+\newline Graduation Project \textit{Pellentesque vitae sem sit amet lorem semper aliquam.}
+\newline The Galupstein Univertity
+\vspace{0.25cm}
+
+%------------------------------------------------------Special slills and knowledge
+\section{\sc Special skills}
+\vspace{0.5cm}
+\begin{itemize}
+	\item Telepathic communication skills 
+	\item Configuration and administration of Female Neurons
+	\item Cloud deployment of sophisticated things
+	\item ...	
+\end{itemize}
+
+%------------------------------------------------------Events, summits, courses and conferences
+\section{\sc Events, summits, courses and conferences}
+\vspace{0.5cm}
+\begin{itemize}
+	\item Formulation and Management of Snail Training
+	\item Project Administration and Management of dwarfs aliens
+	\item ...
+\end{itemize} 
+
+%------------------------------------------------------Areas of interest and research
+\section{\sc Areas of interest and research}
+\vspace{0.5cm}
+\begin{itemize}
+	\item Pellentes que vitae sem sit amet lorem semper aliquam.
+    	\item Computer Weekend roast
+	\item ...
+\end{itemize}
+
+\vspace{\fill}
+\begin{minipage}{1.0\linewidth}
+\begin{center}	
+	\includegraphics[width=7cm,bb=0 0 1147 1147]{./qr.png}
+\end{center}
+\end{minipage}
+
+
+\vspace{\fill}\ \newline
+{\tiny \rm $ $Powered by \LaTeX $ $ }
+{\tiny \rm $ $Junio 2022$ $ }
+{\tiny \rm $ $Nemqueteba Currículum Versión 0.02 $ $ }
+
+\end{resume}
+\end{document}
+
+%---------------------------------------------------------------------
+%---------------------------------------------------------------------This is the end 
